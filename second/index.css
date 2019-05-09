@@ -1,0 +1,77 @@
+ html {
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+ }
+
+ body {
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+ }
+
+ .border-box {
+  margin: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  border: black 4px solid;
+  height: 20vh;
+  width: 100vw;
+}
+
+.purple-rectangle {
+  background-color: purple;
+  padding: 10px;  
+  margin-top: 5.5vh;
+  margin-left: 10px;
+  height: 11vh;
+  width: 10px;
+ }
+
+ .green-square {
+   background-color: green;
+   margin:10px;
+   margin-left: 50px;
+   margin-right: 50px;
+   height: 18vh;
+   width: 300px;
+ }
+
+ .blue-circle {
+   margin:10px;
+   height: 18vh;
+   width: 18vw;
+   border-radius: 50%;
+   background-color: rgb(68, 191, 228);
+ }
+
+ .dotted {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 4px black dotted;
+   height: 25vh;
+   width: 100vw;
+   margin: 10px;
+ }
+
+ .yellow {
+   background-color: rgb(237, 238, 185);
+   height: 18vh;
+   width: 88vw;
+   box-shadow: 5px 5px 5px black;
+ }
+
+ .thin {
+   border: lightgray solid 1px;
+   box-shadow: 3px 3px 3px lightgray;
+   height: 35vh;
+   width: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 25vw;
+   font-family: 'Akronim', cursive;
+   font-size: 35px;
+ }

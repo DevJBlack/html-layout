@@ -1,0 +1,59 @@
+ * {
+   box-sizing: border-box;
+ }
+ 
+ html {
+  height: 100%;
+  width: 100%;
+ }
+
+ body {
+   min-width: 100%;
+   min-height: 100%;
+   margin: 0;
+ }
+
+ .gray {
+   background-color: lightgray;
+   height: 10vh;
+   width: 100%;
+   display: flex;
+   padding: 7px 20px;
+   display: flex;
+   justify-content: flex-start;
+ }
+
+ .blue-square {
+   background-color: aqua;
+   height: 8vh;
+   width: 8vw;
+ }
+
+ .words {
+   height: 20vh;
+   font-family: 'Lobster', cursive;
+   padding: 40px;
+ }
+
+ .lines {
+   margin-top: 10vh;
+ }
+ 
+ .blue{
+   background-color: blue;
+   height: 15vh;
+ }
+
+ .green {
+   background-color: green;
+   height: 15vh;
+ }
+
+ .mush {
+   background-color: greenyellow;
+   height: 15vh;
+ }
+ .yellow {
+   background-color: yellow;
+   height: 15vh;
+ }
